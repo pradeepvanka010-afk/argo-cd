@@ -5,7 +5,7 @@ metadata:
   labels:
     app: pyapp
 spec:
-  replicas: 4
+  replicas: 3
   selector:
     matchLabels:
       app: pyapp
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: pyapp
-          image: pradeepvanka/gha-pyapp:987af9f
+          image: pradeepvanka/gha-pyapp:e3a0506
           ports:
             - containerPort: 8000

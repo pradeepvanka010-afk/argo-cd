@@ -1,4 +1,4 @@
-name: KubeCI
+name: KubeCI argocd
 on: 
   push:
     branches:
